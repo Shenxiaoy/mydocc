@@ -1,0 +1,6 @@
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+  <!-- 短句: 对话气泡，承载文字 -->
+  <path d="M4 4H20C20.55 4 21 4.45 21 5V16C21 16.55 20.55 17 20 17H13L9 21V17H4C3.45 17 3 16.55 3 16V5C3 4.45 3.45 4 4 4Z"/>
+  <path d="M7 8H17"/>
+  <path d="M7 12H13"/>
+</svg>

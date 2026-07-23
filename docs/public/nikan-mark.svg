@@ -1,0 +1,47 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 尼看品牌标识：以琥珀色为主调，呼应粒子背景的有机流动 -->
+  <defs>
+    <radialGradient id="nikanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e2a45e" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#c8843c" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c8843c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nikanStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a2520"/>
+      <stop offset="100%" stop-color="#c8843c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景光晕 -->
+  <circle cx="90" cy="90" r="88" fill="url(#nikanGlow)"/>
+
+  <!-- 外环细线 -->
+  <circle cx="90" cy="90" r="76" fill="none" stroke="#c8843c" stroke-width="0.6" stroke-opacity="0.4"/>
+
+  <!-- "尼" 字极简抽象：两条流动的笔触 -->
+  <path d="M58 56 Q 72 50, 88 56 L 88 82 Q 88 92, 78 96"
+        stroke="url(#nikanStroke)" stroke-width="3" stroke-linecap="round"
+        stroke-linejoin="round" fill="none"/>
+  <path d="M58 56 L 58 124"
+        stroke="url(#nikanStroke)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M58 88 Q 72 86, 88 92"
+        stroke="url(#nikanStroke)" stroke-width="2.4" stroke-linecap="round"
+        stroke-linejoin="round" fill="none"/>
+
+  <!-- "看" 字抽象化：上半部分目形，下半流动 -->
+  <path d="M100 56 L 124 56 M 100 56 L 100 72 M 124 56 L 124 72 M 100 72 L 124 72"
+        stroke="#c8843c" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+  <path d="M112 64 L 112 68"
+        stroke="#c8843c" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M100 84 Q 112 80, 124 84 L 124 110 Q 124 122, 112 126 Q 100 122, 100 110 Z"
+        stroke="url(#nikanStroke)" stroke-width="2.4" stroke-linecap="round"
+        stroke-linejoin="round" fill="none"/>
+
+  <!-- 装饰粒子 -->
+  <circle cx="32" cy="48" r="2.2" fill="#c8843c" opacity="0.7"/>
+  <circle cx="148" cy="62" r="1.6" fill="#e2a45e" opacity="0.7"/>
+  <circle cx="44" cy="138" r="1.4" fill="#7a8d6a" opacity="0.6"/>
+  <circle cx="140" cy="132" r="2.0" fill="#c8843c" opacity="0.6"/>
+  <circle cx="156" cy="92" r="1.2" fill="#b8716e" opacity="0.5"/>
+  <circle cx="24" cy="98" r="1.0" fill="#e2a45e" opacity="0.5"/>
+</svg>
