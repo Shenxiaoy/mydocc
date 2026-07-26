@@ -55,7 +55,8 @@ export default defineConfig({
           items: [
             { text: '概览', link: '/ai/' },
             { text: '模型笔记', link: '/ai/models' },
-            { text: '提示词工程', link: '/ai/prompts' }
+            { text: '提示词工程', link: '/ai/prompts' },
+            { text: 'AI工具', link: '/ai/tools' }
           ]
         }
       ],
