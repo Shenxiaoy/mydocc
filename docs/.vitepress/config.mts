@@ -56,7 +56,8 @@ export default defineConfig({
             { text: '概览', link: '/ai/' },
             { text: '模型笔记', link: '/ai/models' },
             { text: '提示词工程', link: '/ai/prompts' },
-            { text: 'AI工具', link: '/ai/tools' }
+            { text: 'AI工具', link: '/ai/tools' },
+            { text: '漫剧', link: '/ai/manga' }
           ]
         }
       ],
@@ -114,7 +115,13 @@ export default defineConfig({
               navigateText: '切换'
             }
           }
-        }
+        },
+        // miniSearch: {
+        //   searchOptions: {
+        //     prefix: true,
+        //     fuzzy: 0.2
+        //   }
+        // }
       }
     }
   }

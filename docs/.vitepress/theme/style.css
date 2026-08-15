@@ -105,7 +105,7 @@ body {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.22;
+  opacity: 0.1;
 }
 
 /* 让 VitePress 主内容层在粒子之上 */

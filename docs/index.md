@@ -45,4 +45,11 @@ features:
     details: 别人写的，自己想的，路边看见的——一句便是一句，不必上下文。
     link: /phrases/
     linkText: 浏览短句
+  - icon:
+      src: /icons/phrases.svg
+      alt: 计划
+    title: 计划
+    details: 制定计划目的在于时刻提醒自己要做之事，而不是脑袋空白得过且过。
+    link: /diary/plan
+    linkText: 最近规划
 ---
