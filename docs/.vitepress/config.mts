@@ -116,12 +116,17 @@ export default defineConfig({
             }
           }
         },
-        // miniSearch: {
-        //   searchOptions: {
-        //     prefix: true,
-        //     fuzzy: 0.2
-        //   }
-        // }
+        miniSearch: {
+          searchOptions: {
+            prefix: true,
+            fuzzy: 0.2,
+            boost: { title: 4, text: 2 } 
+          },
+          options: {
+            tokenize: (text) => text.split(/[\s\n]+/).flatMap(t => t.split('')),
+            processTerm: (term) => term.trim().toLowerCase() || null
+          }
+        }
       }
     }
   }
